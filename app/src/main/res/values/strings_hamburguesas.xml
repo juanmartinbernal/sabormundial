@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_colombiana">La Colombiana</string>
+    <string name="title_argentina">La Argentina</string>
+    <string name="title_americana">La Americana</string>
+    <string name="title_mexicana">La Mexicana</string>
+    <string name="title_sencilla">La Sencilla</string>
+
+    <string name="text_colombiana"> 150 gr de carne
+Ripio de papas
+Tocineta
+Maduro
+Huevo
+Lechuga
+Tomate
+Queso tajado
+Salsa de la casa</string>
+    <string name="text_argentina">150 gr de carne
+Ripio de papas
+Chorizo
+Chimichurri
+Lechuga
+Tomate
+Salsa de la casa
+Queso tajado</string>
+    <string name="text_americana">150 gr de carne
+Ripio de papas
+Tocineta
+Queso cheddar
+Lechuga
+Tomate
+Salsa de la casa
+Queso tajado</string>
+    <string name="text_mexicana">150 gr de carne
+Chili
+Pico de gallo
+Guacamole
+Lechuga
+Tomate
+Ripio de nachos
+Salsa de la casa
+Queso tajado</string>
+    <string name="text_sencilla">150 gr de carne
+Ripio de papa
+Lechuga
+Tomate
+Queso tajado
+Salsa de la casa</string>
+
+
+</resources>
