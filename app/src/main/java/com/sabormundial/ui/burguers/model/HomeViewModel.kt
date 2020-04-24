@@ -1,4 +1,4 @@
-package com.sabormundial.ui.home
+package com.sabormundial.ui.burguers.model
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,20 +1,20 @@
-package com.sabormundial.ui.home.adapter
+package com.sabormundial.ui.burguers.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.sabormundial.ui.home.entities.Hamburguesa
+import com.sabormundial.ui.burguers.entities.Hamburguesa
 
-class ListHamburguesasAdapter :
-    RecyclerView.Adapter<HamburguesaViewHolder>() {
+class ListBurguersAdapter :
+    RecyclerView.Adapter<BurguerViewHolder>() {
 
     private var items = listOf<Hamburguesa>()
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HamburguesaViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BurguerViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        return HamburguesaViewHolder(inflater, parent)
+        return BurguerViewHolder(inflater, parent)
     }
 
-    override fun onBindViewHolder(holder: HamburguesaViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: BurguerViewHolder, position: Int) {
         val hamburguesa: Hamburguesa = items[position]
         holder.bind(hamburguesa)
     }

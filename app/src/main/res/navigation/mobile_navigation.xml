@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.sabormundial.ui.home.HomeFragment"
+        android:name="com.sabormundial.ui.burguers.view.impl.BurguersListFragmentImpl"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_home_second"
-        android:name="com.sabormundial.ui.home.HomeSecondFragment"
+        android:name="com.sabormundial.ui.burguers.HomeSecondFragment"
         android:label="@string/home_second"
         tools:layout="@layout/fragment_home_second">
         <action
