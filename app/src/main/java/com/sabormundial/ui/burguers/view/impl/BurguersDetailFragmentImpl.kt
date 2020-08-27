@@ -26,7 +26,7 @@ class BurguersDetailFragmentImpl : DialogFragment(), BurguersDetailFragment {
         /**/
         val dialog = super.onCreateDialog(savedInstanceState)
         if (arguments != null) {
-            val title = arguments!!.getString("title")
+            val title = requireArguments().getString("title")
             dialog.setTitle(title)
         }
         return dialog
@@ -53,8 +53,8 @@ class BurguersDetailFragmentImpl : DialogFragment(), BurguersDetailFragment {
         image = view.findViewById(R.id.imgBurguer)
         burguerText = view.findViewById(R.id.txtInfoBurguers)
         if (arguments != null) {
-            val burguerId = arguments!!.getInt("burguerId")
-            val imageId = arguments!!.getInt("image")
+            val burguerId = requireArguments().getInt("burguerId")
+            val imageId = requireArguments().getInt("image")
             image.setImageResource(imageId)
             setDataBurguer(burguerId);
         }
